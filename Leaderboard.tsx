@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ArrowLeft, Trophy, Medal } from 'lucide-react';
-import { getAllUsers } from '../lib/auth';
+import { getAllUsers } from '../auth';
 
 interface LeaderboardProps {
   onNavigate: (page: string) => void;
