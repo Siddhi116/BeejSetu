@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { ArrowLeft, User as UserIcon, Sparkles } from 'lucide-react';
-import { useAuth } from '../contexts/AuthContext';
-import { updateUser } from '../lib/auth';
+import { useAuth } from '../AuthContext';
+import { updateUser } from '../auth';
 
 interface ProfileProps {
   onNavigate: (page: string) => void;
