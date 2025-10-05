@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-import { User, AuthState, getStoredAuth, setStoredAuth, login as authLogin, register as authRegister, logout as authLogout } from '../lib/auth';
+import { User, AuthState, getStoredAuth, setStoredAuth, login as authLogin, register as authRegister, logout as authLogout } from './auth';
 
 interface AuthContextType extends AuthState {
   login: (username: string, password: string) => Promise<User | null>;
