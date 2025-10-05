@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Home, Video, Brain, Users as UsersIcon, MapPin, TrendingUp, MessageSquare, LogOut } from 'lucide-react';
-import { useAuth } from '../contexts/AuthContext';
-import { getAllUsers } from '../lib/auth';
+import { useAuth } from '..AuthContext';
+import { getAllUsers } from '..auth';
 
 interface AdminDashboardProps {
   onNavigate: (page: string) => void;
