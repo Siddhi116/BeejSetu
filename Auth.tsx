@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Sprout, Home } from 'lucide-react';
-import { useAuth } from '../contexts/AuthContext';
+import { useAuth } from '../AuthContext';
 
 interface AuthProps {
   onNavigate: (page: string) => void;
