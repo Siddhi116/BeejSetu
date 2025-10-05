@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Home, Wallet, Trophy, User, Video, Brain, Users, Award, TrendingUp } from 'lucide-react';
-import { useAuth } from '../contexts/AuthContext';
+import { useAuth } from './AuthContext';
 
 interface FarmerDashboardProps {
   onNavigate: (page: string) => void;
