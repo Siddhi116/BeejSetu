@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { ArrowLeft, Coins, Package, Wrench, Droplet, Leaf } from 'lucide-react';
-import { useAuth } from '../contexts/AuthContext';
-import { updateUser } from '../lib/auth';
+import { useAuth } from '../AuthContext';
+import { updateUser } from '../auth';
 
 interface WalletProps {
   onNavigate: (page: string) => void;
