@@ -2,9 +2,9 @@ const CACHE_NAME = 'beejsetu-v1';
 const urlsToCache = [
   '/',
   '/index.html',
-  '/src/main.tsx',
-  '/src/App.tsx',
-  '/src/index.css'
+  '/main.tsx',
+  '/App.tsx',
+  '/index.css'
 ];
 
 self.addEventListener('install', (event) => {
